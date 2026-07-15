@@ -1,0 +1,87 @@
+﻿num = 5
+
+row -  1	1	
+row  - 2	1	2
+row  - 3	1	2	3
+row  - 4	1	2	3	4
+row  - 5	1	2	3	4	5
+
+num = 5
+
+1
+2	2
+3	3	3
+4	4	4	4
+5	5	5	5	5
+
+1
+2	3
+4	5	6
+7	8	9	10
+11	12	13	14	15
+
+A
+B	C
+D	E	F
+G	H	I	J
+K	L	M	N	O
+
+
+1
+2	2
+3	3	3
+4	4	4	4
+5	5	5	5	5
+4	4	4	4
+3	3	3
+2	2
+1
+
+A
+B	C
+D	E	F
+G	H	I	J
+K	L	M	N	O
+P	Q	R	S	
+T	U	V
+W	X
+Y
+
+
+ * * * * * --- 5
+ --* * * * ----4
+ ----* * * ---
+ ------* *
+ --------*
+
+
+ Array is a variable which is used to stroe no of elments in  a 
+ squential order of homogeneios data type.
+
+ Arrays are three types
+ i.Single Dimensional Array
+ ii. Rectangular Array (Multidimensional Array)
+ iii. Jagged Array
+
+ An array with only dimension is called single dimensional array.
+		//Declaration of the Array or Instantiation of the Array.
+ DataType[ ] variableName = new DataType[Size];
+
+ Example :
+			int[] a = new int[5];
+			a[0]  = 100;
+			a[1]  = 34;
+			a[2]  = 56;
+			a[3]  = 44;
+			a[4]  = 23;
+			a[5] = 666;
+
+			
+
+
+
+
+
+
+
+

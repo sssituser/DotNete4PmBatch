@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Arrays/Arrays.csproj" Id="594c5ffd-cc5f-42f7-a6fe-e930b998d4f2" />
+  <Project Path="ConditionalStatements/ConditionalStatements.csproj" Id="71b3c502-bf8d-4228-b2f3-f6e93621b099" />
+  <Project Path="DotNete4PmBatch/DotNete4PmBatch.csproj" Id="09b3c536-5ed8-4e5f-a9d1-169153f88f69" />
+  <Project Path="Loops/Loops.csproj" Id="50141f4c-cfce-420b-9bf3-2aeeceb5d922" />
+  <Project Path="Methods/Methods.csproj" Id="6c6134cb-8909-4b7a-a929-4b3bac2b9c82" />
+  <Project Path="Operators/Operators.csproj" Id="9702e182-e697-42eb-ae38-e26f81d12a4b" />
+</Solution>

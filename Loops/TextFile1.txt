@@ -1,0 +1,66 @@
+﻿do - while : It is exit controlled Structure
+
+syx:
+		do{
+
+		stmts;
+
+		} while(con);
+
+
+		or
+
+	    do{
+
+		stmts;
+
+		} 
+		while(con);
+
+		case 1 : statements executed  then con--->F
+		case 2 : statements executed  then con-> T compiler executes do stmts again and again till the
+		condition becomes false.
+
+
+		1. Find the factors of a given number ?
+		  num = 8	Factor = 1,2,4,8
+		  num = 12  Factors = 1,2,3,4,6,12
+	    2.Count The Factors of a given number ?
+		   num = 8  Factors Count = 4
+		   num = 12 Has 6 Factors
+		3.Sum of the Factors of a given number?
+		num = 8    Factors Sum = 15(1+2+4+8)
+		num = 12   Factors Sum = 28(1+2+3+4+6+12)
+
+		4.Write a program check given number is Perfect or not ?
+			num = 6   Factors = 1,2,3 (1+2+3) 6  is Perfect 
+			num = 8   Factors = 1,2,4 7  8 is not Perfect Number
+			num = 28  Factors = 1,2,4,7,14(28)  28 is Perfect Number
+		5. Write a program to check given number is Prime or not ?
+			num = 7   factors = 1,2 count = 2 7 is prime number
+		6.Write program to find the Average of the factors.
+			Avg = sum factros/factorscount
+			(1)        (2)->T  (4)
+syx: for(Initilization;con;inc/dec){
+         stmts(3)
+	}
+
+	1. Compiler Initializes values
+	2. Cheks the condition 
+			Case i: if the  condition is False Compiler doesn't Execute the stmts
+			which are present in the block.
+			Case ii: if the conditon is True Compiler executes the stmts
+			and then inc/dec values and checks the condition if it is true
+			compiler executes the stmts till the condition reaches to fale state.
+
+
+
+
+
+
+
+
+
+
+		
+

@@ -10,6 +10,15 @@ namespace Methods
     {
         static void Main(string[] args)
         {
+            string s = "welcomes";
+            Console.WriteLine(s.Length); // 8
+            Console.WriteLine(s);//welcomes
+            string res = s.ToUpper();
+            Console.WriteLine(res);
+            Console.WriteLine(s);// WELCOME
+            Console.WriteLine(s);//welcomes
+
+            
         }
     }
 }

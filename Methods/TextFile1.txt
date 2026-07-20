@@ -1,0 +1,6 @@
+﻿Predefined Methods :
+	The methods which are present in the lib can be called Predefined methods.
+
+	String : 
+	1.It is a class, In order work with the string we need  using  methods of a string class.
+	2.string is immutable.

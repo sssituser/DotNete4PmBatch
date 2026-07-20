@@ -1,0 +1,27 @@
+﻿User defined Methods : The methods which are defined the developer is
+called User defined methods.
+
+1.User should define
+2.User should 
+
+syx:
+	Accessmodifier ReturnType MethodName(Parameters){
+	--------------
+	--------------
+	return 
+
+	}
+
+	Accessmodifer :		public      / public static
+			            private    / Private static
+						protected / protected static
+						internal / internal static.
+   AM : public static
+   RT : int/float/double/boolean/string/void/class
+   MN : Method Name Must be meaningful
+   PM : int.float/double/true/string/Array/void
+   Return :  It is a keyword it sends the value.
+
+
+
+

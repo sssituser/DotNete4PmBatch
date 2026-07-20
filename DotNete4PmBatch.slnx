@@ -5,4 +5,5 @@
   <Project Path="Loops/Loops.csproj" Id="50141f4c-cfce-420b-9bf3-2aeeceb5d922" />
   <Project Path="Methods/Methods.csproj" Id="6c6134cb-8909-4b7a-a929-4b3bac2b9c82" />
   <Project Path="Operators/Operators.csproj" Id="9702e182-e697-42eb-ae38-e26f81d12a4b" />
+  <Project Path="UserDefinedMethods/UserDefinedMethods.csproj" Id="8d6ebc41-d2bb-4967-910d-5aff0b6fcb9c" />
 </Solution>

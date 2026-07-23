@@ -1,0 +1,18 @@
+﻿1. Write a program to generate list of Palindrome Numbers for the given starting and ending
+   value
+   input: start : 1   end = 1000
+  PalindromesList : 1,2,3,4...9,11,22,33,.....99,101,111,121,.....999......9999.
+
+2.Write a program to generate list of Armstrongs for the given starting and ending values.
+input start=1  end = 1000
+
+Armstrong list : 1,2,3,4..9,153,370,371,407.
+
+3.Write a program generate list of Perfect numbers for the given starting and ending values
+input : start = 1 end = 100   
+
+Perfect List : 6,28.
+4.Write a program to generate Strong list.
+5.Write a program to generate Adams List.
+6.Write a program to generate PrimesList.
+7.

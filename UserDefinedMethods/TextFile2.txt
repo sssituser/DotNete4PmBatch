@@ -1,0 +1,23 @@
+﻿
+
+
+
+
+    ///array =  {123,456,788,987,445,667}=>   987653
+                 { 3  , 6  ,  8 , 9 ,   5 , 7}
+                 {9,8,7,6,5,3};
+     int[] array = { 123, 456, 788, 987, 445, 667 }; GetMinNumber
+                      1    4    7    7    4    6
+                      
+                      144677
+
+    1.Given Array GetMaxNum(array)
+        GetMaxDigit
+    2.GetMaxDigitArray(array)
+    3.SortArray(array)
+    4.ArrayToNum(array) => 987653
+    
+    MN : GetMaxNum
+    PM : int[]
+    RT : int
+    AM : public static

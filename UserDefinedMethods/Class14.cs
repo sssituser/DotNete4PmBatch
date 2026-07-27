@@ -25,7 +25,6 @@ namespace UserDefinedMethods
             return res;
 
         }
-
         private static int GetMaxDigit(int num)
         {
             int max = num % 10;

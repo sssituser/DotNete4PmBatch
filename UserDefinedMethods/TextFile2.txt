@@ -1,8 +1,4 @@
 ﻿
-
-
-
-
     ///array =  {123,456,788,987,445,667}=>   987653
                  { 3  , 6  ,  8 , 9 ,   5 , 7}
                  {9,8,7,6,5,3};
@@ -21,3 +17,32 @@
     PM : int[]
     RT : int
     AM : public static
+    =========================================================================================
+        ENCRYPT = ARUN  ANS : NURA
+
+        NAMESCORE : "ABC"   SUM = 1+2+3=>6
+
+        SPINING CHARACTER IN  STRING :  "ABCD"  MOVES 2 FOR A CHARACTER   ANS:"CDAB"
+
+        INPUT : STRING  :  MOVES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

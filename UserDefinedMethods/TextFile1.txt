@@ -15,4 +15,4 @@ Perfect List : 6,28.
 4.Write a program to generate Strong list.
 5.Write a program to generate Adams List.
 6.Write a program to generate PrimesList.
-7.
+=============================================================================================

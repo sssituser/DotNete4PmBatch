@@ -1,0 +1,76 @@
+﻿C# is an object oriente programming language, such that it follows 4 pillars of
+oops(Object Oriented Programming Structure) 
+1.Encapsulation
+2.Abstraction
+3.Polymorhphism
+4.Inheritance.
+5.class
+6.Object
+
+class :
+		Conceptial : It is the blue print of the object.	
+							or
+		Practical Defition : It is the collection datatypes , methods, enumeration events, 
+		constructors , destructors , fileds, properties.
+		class <ClassName> [Pascal CaseNamingConvention]
+		{
+			filelds(DataTypes);
+			properties;
+			Methods;
+			constructors;
+			enumeration;
+		}
+		Methods,fields,perperties etc... called class members , these are of
+		two types.
+		static members : The members which are declared with static keyword can
+					     be called static members.
+						 static members can be accessed using classname.
+
+		non static members : The members which are not declared with static keyword
+		                      are called non-static members or Instance members,
+							  non static members can be accessed using object.
+
+Object : It is the instance of a class.
+			or
+		 It is a runtime entity.
+
+		 syx:
+				new ClassName();
+
+				ClassName refvariable = new ClassName();
+				
+				Examples:
+				Employee emp=new Employee();
+				Student s = new Student()
+				
+AccessMoidifiers :
+		public : These members can be accessed with in the class, ouside of the
+		class, namespace.
+				These members can be inerited.
+		
+		protected : 
+		These members can be accessed with in the class but can't accessed
+		outide for the class.
+		These members can be inherited.
+
+		private  :
+			These members of class can be accessed inside the class but they
+			can't accessed outside of the class.
+			They can't inherited.
+			Default members of a class are private.
+		internal :
+				These members can be accessed In and Outside of the class.
+				They can be inhertied.
+				They can't be accessed ouside for the namespace.
+
+
+
+
+
+
+
+
+
+
+
+

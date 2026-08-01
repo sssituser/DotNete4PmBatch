@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OopsConsoleProject.Class7</StartupObject>
+    <StartupObject>OopsConsoleProject.Class8</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="Class5.cs" />
     <Compile Include="Class6.cs" />
     <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

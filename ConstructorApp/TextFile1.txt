@@ -1,0 +1,22 @@
+﻿Constructor : It is special method.
+1. It's name and classname both are same
+2. constructor will not have return type.
+3. Constructor can be called automatically when the object created.
+4. Consructor can be used to create the object.
+5. Constructor is of different types.
+ Instance Constructors 
+	i.Constructor with out paramter(Default Constructor)
+	ii. Parameterised Constructor.
+	iii. Copy Constructor
+ static constructor :
+	Constructor with static keyword
+
+Destructor : It is a special methods its name and classname both are same with tilte operator
+~.
+
+Destructor can be invoked after completing the functionalites of the all objects
+
+~ClassName()
+{
+
+}

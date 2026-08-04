@@ -8,6 +8,7 @@ namespace OopsConsoleProject
 {
     class Customer
     {
+        // properties
         private int customerId;
         private string customerNae;
         private string customerContact;

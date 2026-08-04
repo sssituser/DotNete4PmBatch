@@ -8,7 +8,7 @@ namespace OopsConsoleProject
 {
 
     class Movie
-    {
+    {//Auto Implemented Properties
         public int MovieId { get; set; }
         public string MovieName { get; set; }
         public double MovieRating { get; set; }

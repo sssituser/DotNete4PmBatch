@@ -1,28 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Headers;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OopsConsoleProject
 {
     class Area
     {
         private int length;
-
         private int breadh;
-
         private int side;
         private double radius;
 
-    
-
         public int AreaOfRectangle
         {
-            get { return length*breadh; }
-            
+            get { return length*breadh; }    
         }
         public int AreaOfSquare
         {

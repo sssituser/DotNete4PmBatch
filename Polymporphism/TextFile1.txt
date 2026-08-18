@@ -1,1 +1,18 @@
-﻿An Entity
+﻿Operator over loading : Assingning a new property to the operator is called 
+operator overloading.
+
+In order to overload the operator we use operator keyword.
+
+Run time polymorphism : The polymorphism which can occur during the execution is called Rutime Polymorphism,
+It is also caled late binding or dynamic binding.
+
+To achieve this we use method overriding.
+
+Method Overriding : Defining a same method in Parent class and In child class with same prameters
+and return type.
+
+In order achive method overring Parent class Method can be decorated with virtual
+and child class method can be decoarated with override keyword.
+
+			Parent Class :  method
+			Child Class  :  method

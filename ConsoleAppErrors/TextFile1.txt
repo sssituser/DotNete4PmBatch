@@ -1,0 +1,71 @@
+﻿								Error Handling 
+
+Erros are the mistakses in the program which will not allows the program to compile or execute program.
+Error are of two types.
+
+1.Compilations Errors :
+	The Errors which can occur at compile time is called compilation error.
+	Every Compilation Error will have a specifide numbers
+	; missed --> CS1002
+
+	Solution : Provide proper syntax.
+
+	Ex:
+			Sytnax Errors
+
+
+2.Runtime Errors  :
+					These Errors will occur during the execution of the application.
+					These are called Runtime Error or Exceptions.
+
+					Exceptions Can Cause Abnormal Termiation of the Application.
+
+					To Avoid this we Exception Hangling Techniques.
+
+					They are:
+							try		
+							catch	
+							throw	
+							finally 
+
+					try is  a block in which we write risky code(The Code in which we expect an exception),
+					try block tries to execute the code, if it is not , It raises Exception objects Internally or
+					Implicitly.
+					try block can't be written ideally,
+					try block must be followed with eiter catch block or finally.
+					if it ideal ,it gives compilation error.
+
+					Catch : It is a block which can be used to catch the exceptions which are raised in the
+					try block.
+					Catch block is of two types
+					1.Common Catch blcok
+							A catch block which can catch all the exceptions which are raised in the try block.
+							A common catch blcok can be decled with Exception class or with out any class.
+
+
+
+					2.Individual Catch block
+						A catch block which can catch paritcular Exception, like FormatException,
+						ArrayIndexOutOfRange Exception, or SQL Exception etc....
+
+					Individual catch block can be written primaryly and then common catch block.
+
+					4. Throw is a statement which can be used throw the known exception object to the
+					catch blcok externally.
+					
+					5.finally : It is a block which can be executed after executing try and catch block
+					 respectively.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

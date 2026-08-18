@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Arrays/Arrays.csproj" Id="594c5ffd-cc5f-42f7-a6fe-e930b998d4f2" />
   <Project Path="ConditionalStatements/ConditionalStatements.csproj" Id="71b3c502-bf8d-4228-b2f3-f6e93621b099" />
+  <Project Path="ConsoleAppErrors/ConsoleAppErrors.csproj" Id="84ebf899-2bca-49e5-af29-61ecb2344461" />
   <Project Path="ConstructorApp/ConstructorApp.csproj" Id="90ced037-67a7-4534-8528-05e9a27dd074" />
   <Project Path="DotNete4PmBatch/DotNete4PmBatch.csproj" Id="09b3c536-5ed8-4e5f-a9d1-169153f88f69" />
   <Project Path="Inheritance/Inheritance.csproj" Id="686af42c-4b63-4250-9a54-8cea062e90a2" />

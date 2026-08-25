@@ -1,0 +1,11 @@
+﻿The exceptions which are created by the user are called Custom Exceptions.
+Steps 
+i.Create CustomExceptoin
+
+	1.Create a class
+	2.Inherit Exception Class.
+	3.Create the Constructor with Parameter and with out Parameter.
+
+ii.Consume the Custom Exception
+		Create an application check the condition 
+		based on the condition throw the Custom Exception

@@ -33,9 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FileHandling.Class7</StartupObject>
+    <StartupObject>FileHandling.Class9</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySystem">
+      <HintPath>C:\Users\Sushma\Desktop\MySystem.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,6 +56,8 @@
     <Compile Include="Class5.cs" />
     <Compile Include="Class6.cs" />
     <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
+    <Compile Include="Class9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

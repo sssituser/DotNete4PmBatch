@@ -9,7 +9,7 @@ namespace FileHandling
         {
 
 
-          
+      
             foreach(DriveInfo drInfo in DriveInfo.GetDrives())
             {
                 long totalSpaceSize = drInfo.TotalSize / (1024*1024*1024);

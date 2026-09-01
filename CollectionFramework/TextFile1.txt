@@ -1,0 +1,66 @@
+﻿Collection Framework: It is a lib which used to organise the homogeneous 
+and heterogeneous objects.
+
+Collection is an object which can Organise objects(Adding  the values, Reading valuels,
+Sorting the values,Remove the elements).
+
+
+In order to work with the Collection Framework, We use the namespaces
+1. System.Collection
+	
+2  System.Collection.Generics
+
+
+Collection is divided into three types.
+
+1. List			2. Set		3.Queue    4.Mapping
+
+
+List : It allows duplicate values and nullvalues.
+       List follows Insertion order.
+	   List Opertions can be performed by the classes
+	   ArrayList,LinkedList,List
+Set : It will not duplicate vales and It will not allow null values.
+      It does't follow insertion order.
+	  In order to work set we use
+	  Set,SortedSet,TreeSet etc...
+
+Mapping : It is the collection key and value pairs.
+          keys can't duplcate, values can be duplcate.
+
+		  In order to work mapping we use classes
+		  SorteList,Dictionary, Sorted Dictonary etc...
+
+Queue : It can also heterogeneous data, It follows First In First Out,
+        The element which is added Fist can be deleted First.
+Stack : It is also can heterogeneous data, It Last In First Out,
+The elements which are Inserted Last can be removed First.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int[] res = new int[5];
+
+1.Fixed in size.
+2.Homogeneious elements.
+3.Can't Increase or decrease
+
+
+Collection
+	1. Size is not fixed
+	2. Heterogeneous
+	3. We can add the data and remove the data
+	4. Performance is low when campare to arrays

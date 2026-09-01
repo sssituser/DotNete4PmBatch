@@ -47,7 +47,7 @@ namespace FileHandling
                 case 3:
                     Console.Write("Enter File Name : ");
                     fname = Console.ReadLine();
-                    
+
                     finfo = new FileInfo(fname);
                     if (finfo.Exists)
                     {
@@ -60,8 +60,6 @@ namespace FileHandling
                         }
                         sw.Close();
                         Console.WriteLine("Infomraiton Saved....");
-
-
                     }
                     else
                     {
@@ -75,7 +73,7 @@ namespace FileHandling
                     Console.Write("Enter File Name : ");
                     fname = Console.ReadLine();
                     finfo = new FileInfo(fname);
-                   
+
                     if (finfo.Exists)
                     {
                         StreamReader sr = new StreamReader(fname);
@@ -87,7 +85,7 @@ namespace FileHandling
                     {
                         Console.WriteLine("File Not Found....");
                     }
-                   
+
                     goto Menu;
                 default:
                     Console.WriteLine("Invalid chooice.....");

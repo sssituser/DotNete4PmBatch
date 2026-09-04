@@ -14,6 +14,7 @@ In order to work with the Collection Framework, We use the namespaces
 Collection is divided into three types.
 
 1. List			2. Set		3.Queue    4.Mapping
+Stack,Queue,ArrayList,LinkedList
 
 
 List : It allows duplicate values and nullvalues.
@@ -57,6 +58,7 @@ int[] res = new int[5];
 1.Fixed in size.
 2.Homogeneious elements.
 3.Can't Increase or decrease
+Arrays performence is best
 
 
 Collection
@@ -64,3 +66,12 @@ Collection
 	2. Heterogeneous
 	3. We can add the data and remove the data
 	4. Performance is low when campare to arrays
+	Performance is better than arrays.
+	Stack follows Last Fist OUt
+	It deletes the element which is inserted last.
+	In order to add the element to the list we use push method
+	In oder to  delete the element pop method.
+	In Know  the element which will  be delete by using peek method.
+	In order to know the  no of elements in the stack we Count Property
+	Clone(): It creates new reference variable for the stack
+	

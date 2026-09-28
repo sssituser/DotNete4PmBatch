@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AdpConnectedConsole/AdpConnectedConsole.csproj" Id="f432aa08-7ce9-47c4-82dd-39af3b875673" />
   <Project Path="Arrays/Arrays.csproj" Id="594c5ffd-cc5f-42f7-a6fe-e930b998d4f2" />
   <Project Path="CollectionFramework/CollectionFramework.csproj" Id="b63428d1-51a7-4c9e-b616-28b01b6402ea" />
   <Project Path="ConditionalStatements/ConditionalStatements.csproj" Id="71b3c502-bf8d-4228-b2f3-f6e93621b099" />

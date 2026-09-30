@@ -1,0 +1,107 @@
+﻿				ADO.NET(Active X Data Object)
+			It is a lib, which provides communication between
+			front end   and backend and vice versa.
+
+			In Ado.net we use two architectures.
+				1.Connected Oriented Architecture.
+			        2.DisConnected Oriented Architecture
+
+In order to work Ado. Net With MSSQL server we use the namespaces.
+		System.Data.SqlClient
+
+
+			SqlConnection
+			SqlCommand
+			SqlDataReader
+			SqlDataAdapter
+			SqlCommndBuilder
+
+
+			System.Data
+
+			DataTable
+			DataRow
+			DataView
+			DataSet
+	
+	================Connected Architecture==================================
+			Frontend and Backend are directly Connected.
+			By default connection state  is open.
+			In order to work with Connected Architecture we need close the connection.
+			other wise we can't perform database operations.
+
+	In order perform any operation like insert/Delete/update/Select
+	we need 
+			open the connection and 
+			Execute the query and 
+			close connection.
+
+			SqlConnection
+			SqlCommand
+			SqlDataReader
+			DataTable
+	=========================================================================
+
+
+	SqlConnection :
+			Connection object can be used establish the
+			connection between front-end and back-end.
+
+
+			This connection can be used to change the database.
+
+			By Default connection state is open.
+
+			We need to close the connection, in connected architecture.
+	
+			In order to establish the connection we need provide
+			SqlServerName, DataBaseName, and Location of the
+			Database In the connection object.
+
+			SqlConnection con = new SqlConnection("sdfsfa");
+
+			Business Logic : The code which we write for database
+			connectivity is called business logic.
+
+
+	SqlCommand : In order to execute the quires we use SqlCommnad Object.
+
+			Command object is responsible for holding the query 
+				and
+			It is responsible for executing query.
+
+			The Query Can be Assigned to a string property called
+			CommandText.
+
+			CommandText Property is responsible to hold the query.
+
+			In SqlCommand class has non-static methods
+				1.ExecuteNonQuery() Method-int  insert/delete/update
+				   If the quires are executed successfully... this methods returns
+				   the value greater than zero.
+				2.ExecuteReadeader() Method-dr : To execute select query we use 				this method,  its  return type is datareader object, this object				can hold the data coming from the database.
+				3.ExecuteScalar() Method-object
+			
+
+
+	SqlDataReader
+	DataTable
+
+
+				============================DisConnected Architecture==========================
+				SqlConnection		:
+						
+			    SqlDataAdapter		:
+
+			    SqlCommndBuilder    :
+				
+				DataSet             :
+
+				DataRow             :
+	
+
+	In Disconnected Architecture front end is connected to dataset and dataset is connected to
+	Database. Since Front is not directly connected with Data base, It is called disconnected
+	architecture.
+
+	In dis-connected architecture con is always open.

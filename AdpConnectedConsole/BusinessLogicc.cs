@@ -20,7 +20,8 @@ namespace AdpConnectedConsole
         {
             cmd.CommandText = $"insert into employee values({emp.EmployeeId},'{emp.EmployeeName}',{emp.EmployeeSalary})";
             con.Open();
-            int res = await cmd.ExecuteNonQueryAsync();
+            Task<int> r =  cmd.ExecuteNonQueryAsync();
+            int res = await r;
             con.Close();
             return  res > 0;
         }
@@ -46,6 +47,7 @@ namespace AdpConnectedConsole
             cmd.CommandText = "select * from employee";
             con.Open();
             dr = await cmd.ExecuteReaderAsync();
+
             DataTable dt = new DataTable ();
             dt.Load(dr);
             con.Close();

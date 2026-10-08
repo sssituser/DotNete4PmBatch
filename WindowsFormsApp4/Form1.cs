@@ -39,5 +39,22 @@ namespace WindowsFormsApp4
             sp.Dispose();
             sp=new SpeechSynthesizer();
         }
+
+        private void Form1_Load (object sender, EventArgs e)
+        {
+           
+        }
+
+        private void comboBox1_SelectedIndexChanged (object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem.ToString() == "Male")
+            {
+                sp.SelectVoiceByHints(VoiceGender.Male);
+            }
+            else
+            {
+                sp.SelectVoiceByHints(VoiceGender.Female);
+            }
+        }
     }
 }

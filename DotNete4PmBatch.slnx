@@ -1,9 +1,11 @@
 <Solution>
   <Folder Name="/WindowsFormsExamples/">
+    <Project Path="NotePad/NotePad.csproj" Id="3c030f89-fe8c-49c6-ba29-c3c8bb3f9d14" />
     <Project Path="WindowsFormsApp1/WindowsFormsApp1.csproj" Id="ed89b046-72a1-4475-b57e-4dda17c63879" />
     <Project Path="WindowsFormsApp2/WindowsFormsApp2.csproj" Id="1e8d3449-be7f-4282-87e4-953bb2ef6bdf" />
     <Project Path="WindowsFormsApp3/WindowsFormsApp3.csproj" Id="524011b4-8f87-4c5c-b659-a935b4102cf5" />
     <Project Path="WindowsFormsApp4/WindowsFormsApp4.csproj" Id="07f27ec4-4df7-47df-8b7d-2f4d9c5e0f84" />
+    <Project Path="WindowsFormsApp5/WindowsFormsApp5.csproj" Id="fc7519be-711b-43d5-ab5b-f8949c9e56db" />
   </Folder>
   <Project Path="AdpConnectedConsole/AdpConnectedConsole.csproj" Id="f432aa08-7ce9-47c4-82dd-39af3b875673" />
   <Project Path="Arrays/Arrays.csproj" Id="594c5ffd-cc5f-42f7-a6fe-e930b998d4f2" />
